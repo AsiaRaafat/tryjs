@@ -87,10 +87,19 @@
 //   showtask();
 // }
 // function removetask(){
-//   task=+prompt("enter task number you want to delete");
-//   index=task-1;
+//  let task=+prompt("enter task number you want to delete");
+//   let index=task-1;
 //   tasks.splice(index,1);
 //   console.log(tasks);
+// }
+// let tasks =["gotogym","gotowork","gotosleep"];
+// function updatetask(){
+//     let task= +prompt("enter number task you want to ubdate");
+//     let index=task-1;
+//     let newtask= prompt("enter new task");
+//     tasks.splice(index,1,newtask);
+//     console.clear();
+//     console.log(tasks);
 // }
 // function showtask(){
 // tasks.forEach((task,index)=>{
